@@ -1,0 +1,198 @@
+{
+  "CaseIList": [
+    "Program+<>c::<CaseIList>b__12_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseICollection": [
+    "Program+<>c::<CaseICollection>b__13_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseList": [
+    "Program+<>c::<CaseList>b__14_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseToList": [
+    "Program+<>c::<CaseToList>b__15_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseAddRange": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseAddRange>b__16_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseFalseIList": [
+    "Program+<>c::<CaseFalseIList>b__17_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseFalseICollection": [
+    "Program+<>c::<CaseFalseICollection>b__18_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseHalfIList": [
+    "Program+<>c::<CaseHalfIList>b__19_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseHalfICollection": [
+    "Program+<>c::<CaseHalfICollection>b__20_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseFrontIList": [
+    "Program+<>c::<CaseFrontIList>b__21_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseFrontICollection": [
+    "Program+<>c::<CaseFrontICollection>b__22_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseArrayIList": [
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseArrayICollection": [
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseReferenceIList": [
+    "Program+<>c::<CaseReferenceIList>b__25_0",
+    "System.Func`2[System.String,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseReferenceICollection": [
+    "Program+<>c::<CaseReferenceICollection>b__26_0",
+    "System.Func`2[System.String,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseYieldIList": [
+    "Program::Yield",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseYieldICollection": [
+    "Program::Yield",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseListWhereIList": [
+    "Program+<>c::<CaseListWhereIList>b__30_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseListWhereICollection": [
+    "Program+<>c::<CaseListWhereICollection>b__31_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExistingGrow": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExistingGrow>b__32_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExistingReserved": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange",
+    "Program+<>c::<CaseExistingReserved>b__33_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedArraychainIList": [
+    "Program+<>c::<CaseExpandedArraychainIList>b__34_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedArraychainIList>b__34_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedArraychainICollection": [
+    "Program+<>c::<CaseExpandedArraychainICollection>b__35_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedArraychainICollection>b__35_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedListchainIList": [
+    "Program+<>c::<CaseExpandedListchainIList>b__36_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedListchainIList>b__36_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedListchainICollection": [
+    "Program+<>c::<CaseExpandedListchainICollection>b__37_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedListchainICollection>b__37_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedSelectIList": [
+    "Program+<>c::<CaseExpandedSelectIList>b__38_0",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedSelectICollection": [
+    "Program+<>c::<CaseExpandedSelectICollection>b__39_0",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedSavedIList": [
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedSavedICollection": [
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedSkipIList": [
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Take",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedSkipICollection": [
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Take",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedConcatIList": [
+    "System.Linq.Enumerable::Take",
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Concat",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseExpandedConcatICollection": [
+    "System.Linq.Enumerable::Take",
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Concat",
+    "System.Linq.Enumerable::ToList"
+  ]
+}

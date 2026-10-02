@@ -1,0 +1,138 @@
+{
+  "half-ilist": [
+    {
+      "run": "pass-0-A",
+      "first5Median": 314447.22222222225,
+      "last5Median": 179487.5
+    },
+    {
+      "run": "pass-3-A",
+      "first5Median": 378632.5,
+      "last5Median": 202650
+    }
+  ],
+  "main-icollection-100000": [
+    {
+      "run": "pass-0-A",
+      "first5Median": 478407.8125,
+      "last5Median": 266641.40625
+    },
+    {
+      "run": "pass-5-A",
+      "first5Median": 479613.28125,
+      "last5Median": 249267.1875
+    },
+    {
+      "run": "pass-6-A",
+      "first5Median": 481650.78125,
+      "last5Median": 264528.90625
+    }
+  ],
+  "main-addrange-100000": [
+    {
+      "run": "pass-2-B",
+      "first5Median": 475685.9375,
+      "last5Median": 247085.15625
+    },
+    {
+      "run": "pass-4-B",
+      "first5Median": 483421.875,
+      "last5Median": 283718.75
+    },
+    {
+      "run": "pass-5-A",
+      "first5Median": 481024.21875,
+      "last5Median": 279567.96875
+    }
+  ],
+  "existing-addrange-grow": [
+    {
+      "run": "pass-3-A",
+      "first5Median": 474854.296875,
+      "last5Median": 268689.453125
+    },
+    {
+      "run": "pass-6-A",
+      "first5Median": 472509.375,
+      "last5Median": 255759.375
+    },
+    {
+      "run": "pass-7-B",
+      "first5Median": 480106.25,
+      "last5Median": 259907.03125
+    }
+  ],
+  "expanded-saved-icollection-100000": [
+    {
+      "run": "pass-3-A",
+      "first5Median": 469868.75,
+      "last5Median": 270989.5833333333
+    }
+  ],
+  "half-icollection": [
+    {
+      "run": "pass-3-A",
+      "first5Median": 310082.6388888889,
+      "last5Median": 176452.08333333334
+    }
+  ],
+  "expanded-saved-ilist-100000": [
+    {
+      "run": "pass-5-A",
+      "first5Median": 465813.5416666667,
+      "last5Median": 273579.1666666667
+    },
+    {
+      "run": "pass-6-A",
+      "first5Median": 471493.75,
+      "last5Median": 274929.1666666667
+    }
+  ],
+  "main-addrange-1000000": [
+    {
+      "run": "pass-5-A",
+      "first5Median": 16178846.153846154,
+      "last5Median": 2432084.6153846155
+    },
+    {
+      "run": "pass-6-A",
+      "first5Median": 15894023.076923076,
+      "last5Median": 2284446.153846154
+    }
+  ],
+  "main-ilist-100000": [
+    {
+      "run": "pass-5-A",
+      "first5Median": 472319.53125,
+      "last5Median": 257947.65625
+    }
+  ],
+  "reference-icollection": [
+    {
+      "run": "pass-5-A",
+      "first5Median": 1106652.0833333333,
+      "last5Median": 602915.625
+    }
+  ],
+  "small-ilist-1": [
+    {
+      "run": "pass-5-A",
+      "first5Median": 16.47531434475249,
+      "last5Median": 28.96580254905407
+    }
+  ],
+  "expanded-arraychain-ilist-100000": [
+    {
+      "run": "pass-6-A",
+      "first5Median": 470298.9583333333,
+      "last5Median": 267270.8333333333
+    }
+  ],
+  "small-ilist-8": [
+    {
+      "run": "pass-7-B",
+      "first5Median": 206.03105232103408,
+      "last5Median": 16.67724384922541
+    }
+  ]
+}

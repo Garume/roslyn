@@ -1,0 +1,238 @@
+{
+  "CaseIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseIList>b__12_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseICollection>b__13_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseList": [
+    "Program+<>c::<CaseList>b__14_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseToList": [
+    "Program+<>c::<CaseToList>b__15_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Linq.Enumerable::ToList"
+  ],
+  "CaseAddRange": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseAddRange>b__16_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseFalseIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseFalseIList>b__17_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseFalseICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseFalseICollection>b__18_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseHalfIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseHalfIList>b__19_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseHalfICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseHalfICollection>b__20_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseFrontIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseFrontIList>b__21_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseFrontICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseFrontICollection>b__22_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseArrayIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Runtime.InteropServices.CollectionsMarshal::SetCount",
+    "System.Runtime.InteropServices.CollectionsMarshal::AsSpan",
+    "System.ReadOnlySpan`1[System.Int32]::.ctor",
+    "System.ReadOnlySpan`1[System.Int32]::get_Length",
+    "System.Span`1[System.Int32]::Slice",
+    "System.ReadOnlySpan`1[System.Int32]::CopyTo",
+    "System.ReadOnlySpan`1[System.Int32]::get_Length"
+  ],
+  "CaseArrayICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Runtime.InteropServices.CollectionsMarshal::SetCount",
+    "System.Runtime.InteropServices.CollectionsMarshal::AsSpan",
+    "System.ReadOnlySpan`1[System.Int32]::.ctor",
+    "System.ReadOnlySpan`1[System.Int32]::get_Length",
+    "System.Span`1[System.Int32]::Slice",
+    "System.ReadOnlySpan`1[System.Int32]::CopyTo",
+    "System.ReadOnlySpan`1[System.Int32]::get_Length"
+  ],
+  "CaseReferenceIList": [
+    "System.Collections.Generic.List`1[System.String]::.ctor",
+    "Program+<>c::<CaseReferenceIList>b__25_0",
+    "System.Func`2[System.String,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.String]::AddRange"
+  ],
+  "CaseReferenceICollection": [
+    "System.Collections.Generic.List`1[System.String]::.ctor",
+    "Program+<>c::<CaseReferenceICollection>b__26_0",
+    "System.Func`2[System.String,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.String]::AddRange"
+  ],
+  "CaseYieldIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program::Yield",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseYieldICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program::Yield",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseListWhereIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseListWhereIList>b__30_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseListWhereICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseListWhereICollection>b__31_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExistingGrow": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExistingGrow>b__32_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExistingReserved": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange",
+    "Program+<>c::<CaseExistingReserved>b__33_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedArraychainIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExpandedArraychainIList>b__34_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedArraychainIList>b__34_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedArraychainICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExpandedArraychainICollection>b__35_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedArraychainICollection>b__35_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedListchainIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExpandedListchainIList>b__36_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedListchainIList>b__36_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedListchainICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExpandedListchainICollection>b__37_0",
+    "System.Func`2[System.Int32,System.Boolean]::.ctor",
+    "System.Linq.Enumerable::Where",
+    "Program+<>c::<CaseExpandedListchainICollection>b__37_1",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedSelectIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExpandedSelectIList>b__38_0",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedSelectICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "Program+<>c::<CaseExpandedSelectICollection>b__39_0",
+    "System.Func`2[System.Int32,System.Int32]::.ctor",
+    "System.Linq.Enumerable::Select",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedSavedIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedSavedICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedSkipIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Take",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedSkipICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Take",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedConcatIList": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Linq.Enumerable::Take",
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Concat",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ],
+  "CaseExpandedConcatICollection": [
+    "System.Collections.Generic.List`1[System.Int32]::.ctor",
+    "System.Linq.Enumerable::Take",
+    "System.Linq.Enumerable::Skip",
+    "System.Linq.Enumerable::Concat",
+    "System.Collections.Generic.List`1[System.Int32]::AddRange"
+  ]
+}

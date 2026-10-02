@@ -1,0 +1,329 @@
+[
+  {
+    "scenario": "normal",
+    "target": "interface",
+    "error": null,
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "current:2",
+      "move:3",
+      "dispose"
+    ],
+    "result": [
+      1,
+      2
+    ]
+  },
+  {
+    "scenario": "normal",
+    "target": "collection",
+    "error": null,
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "current:2",
+      "move:3",
+      "dispose"
+    ],
+    "result": [
+      1,
+      2
+    ]
+  },
+  {
+    "scenario": "normal",
+    "target": "concrete",
+    "error": null,
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "current:2",
+      "move:3",
+      "dispose"
+    ],
+    "result": [
+      1,
+      2
+    ]
+  },
+  {
+    "scenario": "mutating-list",
+    "target": "interface",
+    "error": "InvalidOperationException:Collection was modified; enumeration operation may not execute.",
+    "events": [
+      "p:1"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "mutating-list",
+    "target": "collection",
+    "error": "InvalidOperationException:Collection was modified; enumeration operation may not execute.",
+    "events": [
+      "p:1"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "mutating-list",
+    "target": "concrete",
+    "error": null,
+    "events": [
+      "p:1",
+      "p:2"
+    ],
+    "result": [
+      1,
+      2
+    ]
+  },
+  {
+    "scenario": "mutating-array",
+    "target": "interface",
+    "error": null,
+    "events": [
+      "p:1",
+      "p:3"
+    ],
+    "result": [
+      1,
+      3
+    ]
+  },
+  {
+    "scenario": "mutating-array",
+    "target": "collection",
+    "error": null,
+    "events": [
+      "p:1",
+      "p:3"
+    ],
+    "result": [
+      1,
+      3
+    ]
+  },
+  {
+    "scenario": "mutating-array",
+    "target": "concrete",
+    "error": null,
+    "events": [
+      "p:1",
+      "p:3"
+    ],
+    "result": [
+      1,
+      3
+    ]
+  },
+  {
+    "scenario": "null-enumerable",
+    "target": "interface",
+    "error": "ArgumentNullException:collection",
+    "events": [],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "null-enumerable",
+    "target": "collection",
+    "error": "ArgumentNullException:collection",
+    "events": [],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "null-enumerable",
+    "target": "concrete",
+    "error": "ArgumentNullException:source",
+    "events": [],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "get",
+    "target": "interface",
+    "error": "Exception:get",
+    "events": [
+      "get"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "get",
+    "target": "collection",
+    "error": "Exception:get",
+    "events": [
+      "get"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "get",
+    "target": "concrete",
+    "error": "Exception:get",
+    "events": [
+      "get"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "move",
+    "target": "interface",
+    "error": "Exception:move",
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "dispose"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "move",
+    "target": "collection",
+    "error": "Exception:move",
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "dispose"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "move",
+    "target": "concrete",
+    "error": "Exception:move",
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "dispose"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "current",
+    "target": "interface",
+    "error": "Exception:current",
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "current:2",
+      "dispose"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "current",
+    "target": "collection",
+    "error": "Exception:current",
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "current:2",
+      "dispose"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "current",
+    "target": "concrete",
+    "error": "Exception:current",
+    "events": [
+      "get",
+      "move:1",
+      "current:1",
+      "move:2",
+      "current:2",
+      "dispose"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "predicate",
+    "target": "interface",
+    "error": "Exception:predicate",
+    "events": [
+      "p:1",
+      "p:2"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "predicate",
+    "target": "collection",
+    "error": "Exception:predicate",
+    "events": [
+      "p:1",
+      "p:2"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "predicate",
+    "target": "concrete",
+    "error": "Exception:predicate",
+    "events": [
+      "p:1",
+      "p:2"
+    ],
+    "result": [
+      9
+    ]
+  },
+  {
+    "scenario": "null-array",
+    "target": "interface",
+    "error": "NullReferenceException:Object reference not set to an instance of an object."
+  },
+  {
+    "scenario": "null-array",
+    "target": "concrete",
+    "error": "ArgumentNullException:source"
+  }
+]

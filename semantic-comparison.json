@@ -1,0 +1,144 @@
+{
+  "observationsPerCompiler": 50,
+  "candidateMatchesConcreteList": true,
+  "changes": [
+    {
+      "before": {
+        "scenario": "mutating-list",
+        "target": "enumerable",
+        "error": "InvalidOperationException:Collection was modified; enumeration operation may not execute.",
+        "events": [
+          "p:1"
+        ],
+        "result": [
+          9
+        ]
+      },
+      "after": {
+        "scenario": "mutating-list",
+        "target": "enumerable",
+        "error": null,
+        "events": [
+          "p:1",
+          "p:2"
+        ],
+        "result": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "before": {
+        "scenario": "mutating-list",
+        "target": "readonly-collection",
+        "error": "InvalidOperationException:Collection was modified; enumeration operation may not execute.",
+        "events": [
+          "p:1"
+        ],
+        "result": [
+          9
+        ]
+      },
+      "after": {
+        "scenario": "mutating-list",
+        "target": "readonly-collection",
+        "error": null,
+        "events": [
+          "p:1",
+          "p:2"
+        ],
+        "result": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "before": {
+        "scenario": "mutating-list",
+        "target": "readonly-list",
+        "error": "InvalidOperationException:Collection was modified; enumeration operation may not execute.",
+        "events": [
+          "p:1"
+        ],
+        "result": [
+          9
+        ]
+      },
+      "after": {
+        "scenario": "mutating-list",
+        "target": "readonly-list",
+        "error": null,
+        "events": [
+          "p:1",
+          "p:2"
+        ],
+        "result": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "before": {
+        "scenario": "null-enumerable",
+        "target": "enumerable",
+        "error": "ArgumentNullException:collection",
+        "events": [],
+        "result": [
+          9
+        ]
+      },
+      "after": {
+        "scenario": "null-enumerable",
+        "target": "enumerable",
+        "error": "ArgumentNullException:source",
+        "events": [],
+        "result": [
+          9
+        ]
+      }
+    },
+    {
+      "before": {
+        "scenario": "null-enumerable",
+        "target": "readonly-collection",
+        "error": "ArgumentNullException:collection",
+        "events": [],
+        "result": [
+          9
+        ]
+      },
+      "after": {
+        "scenario": "null-enumerable",
+        "target": "readonly-collection",
+        "error": "ArgumentNullException:source",
+        "events": [],
+        "result": [
+          9
+        ]
+      }
+    },
+    {
+      "before": {
+        "scenario": "null-enumerable",
+        "target": "readonly-list",
+        "error": "ArgumentNullException:collection",
+        "events": [],
+        "result": [
+          9
+        ]
+      },
+      "after": {
+        "scenario": "null-enumerable",
+        "target": "readonly-list",
+        "error": "ArgumentNullException:source",
+        "events": [],
+        "result": [
+          9
+        ]
+      }
+    }
+  ]
+}

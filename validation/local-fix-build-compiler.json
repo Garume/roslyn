@@ -1,0 +1,26 @@
+{
+  "name": "local-fix-build-compiler",
+  "command": [
+    "C:\\Users\\nabej\\Documents\\Github\\ReDelta\\automation_workflow\\.work\\roslyn-85777\\.dotnet\\dotnet.exe",
+    "build",
+    "src/Compilers/CSharp/csc/AnyCpu/csc.csproj",
+    "-c",
+    "Release",
+    "-f",
+    "net10.0",
+    "-m:1",
+    "-nr:false",
+    "-p:BuildInParallel=false",
+    "-p:UseSharedCompilation=false",
+    "-p:RunAnalyzersDuringBuild=true",
+    "--no-restore"
+  ],
+  "cwd": "C:\\Users\\nabej\\Documents\\Github\\ReDelta\\automation_workflow\\.work\\roslyn-85777",
+  "startedAt": "2026-10-03T05:55:46.561255+00:00",
+  "timeoutSeconds": 3600,
+  "state": "passed",
+  "pid": 31832,
+  "exitCode": 0,
+  "seconds": 4.6560000000026776,
+  "finishedAt": "2026-10-03T05:55:51.214680+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "f4d3fb7e36042c8fb3b4466000749b353b67a2e2",
+  "compilerSha256": "079c1636e7d88b9cf2e45f5991ce816e94326566ccf9b71cca3a57bf248e86a1",
+  "assemblies": {
+    "Workloads": {
+      "measuredSha256": "19d5db827fa1862f5d08cbd58e61365d92020243cbf47e336e14f52dc6b7d0ec",
+      "localSha256": "19d5db827fa1862f5d08cbd58e61365d92020243cbf47e336e14f52dc6b7d0ec",
+      "byteIdentical": true,
+      "verifyMatches": true,
+      "ilMatches": true
+    },
+    "SemanticAudit": {
+      "measuredSha256": "9506076436ffd80256a6d20b745887394b968f446644ef148e0c6769a09a21f1",
+      "localSha256": "9506076436ffd80256a6d20b745887394b968f446644ef148e0c6769a09a21f1",
+      "byteIdentical": true,
+      "observationsMatches": true
+    }
+  }
+}

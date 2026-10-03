@@ -1,0 +1,20 @@
+{
+  "name": "local-fix-format",
+  "command": [
+    "C:\\Users\\nabej\\Documents\\Github\\ReDelta\\automation_workflow\\.work\\roslyn-85777\\.dotnet\\dotnet.exe",
+    "format",
+    "whitespace",
+    "--folder",
+    ".",
+    "--include",
+    "src/Compilers/CSharp/Portable/Lowering/LocalRewriter/LocalRewriter_CollectionExpression.cs"
+  ],
+  "cwd": "C:\\Users\\nabej\\Documents\\Github\\ReDelta\\automation_workflow\\.work\\roslyn-85777",
+  "startedAt": "2026-10-03T05:52:49.664947+00:00",
+  "timeoutSeconds": 3600,
+  "state": "passed",
+  "pid": 46840,
+  "exitCode": 0,
+  "seconds": 1.5780000000086147,
+  "finishedAt": "2026-10-03T05:52:51.248533+00:00"
+}

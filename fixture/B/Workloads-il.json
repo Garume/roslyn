@@ -1,0 +1,140 @@
+{
+  "enumerable_where": {
+    "size": 52,
+    "calls": [
+      "Program+<>c::<enumerable_where>b__6_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "enumerable_chain": {
+    "size": 88,
+    "calls": [
+      "Program+<>c::<enumerable_chain>b__7_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "Program+<>c::<enumerable_chain>b__7_1",
+      "System.Func`2[System.Int32,System.Int32]::.ctor",
+      "System.Linq.Enumerable::Select",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "enumerable_yield": {
+    "size": 16,
+    "calls": [
+      "Program::Values",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "rocollection_where": {
+    "size": 52,
+    "calls": [
+      "Program+<>c::<rocollection_where>b__9_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "rocollection_chain": {
+    "size": 88,
+    "calls": [
+      "Program+<>c::<rocollection_chain>b__10_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "Program+<>c::<rocollection_chain>b__10_1",
+      "System.Func`2[System.Int32,System.Int32]::.ctor",
+      "System.Linq.Enumerable::Select",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "rocollection_yield": {
+    "size": 16,
+    "calls": [
+      "Program::Values",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "rolist_where": {
+    "size": 52,
+    "calls": [
+      "Program+<>c::<rolist_where>b__12_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "rolist_chain": {
+    "size": 88,
+    "calls": [
+      "Program+<>c::<rolist_chain>b__13_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "Program+<>c::<rolist_chain>b__13_1",
+      "System.Func`2[System.Int32,System.Int32]::.ctor",
+      "System.Linq.Enumerable::Select",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "rolist_yield": {
+    "size": 16,
+    "calls": [
+      "Program::Values",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "mutable": {
+    "size": 47,
+    "calls": [
+      "Program+<>c::<mutable>b__15_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList"
+    ]
+  },
+  "list": {
+    "size": 47,
+    "calls": [
+      "Program+<>c::<list>b__16_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList"
+    ]
+  },
+  "none": {
+    "size": 52,
+    "calls": [
+      "Program+<>c::<none>b__17_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "half": {
+    "size": 52,
+    "calls": [
+      "Program+<>c::<half>b__18_0",
+      "System.Func`2[System.Int32,System.Boolean]::.ctor",
+      "System.Linq.Enumerable::Where",
+      "System.Linq.Enumerable::ToList",
+      "<>z__ReadOnlyList`1[System.Int32]::.ctor"
+    ]
+  },
+  "known": {
+    "size": 16,
+    "calls": [
+      "System.Linq.Enumerable::ToArray",
+      "<>z__ReadOnlyArray`1[System.Int32]::.ctor"
+    ]
+  }
+}

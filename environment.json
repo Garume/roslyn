@@ -1,0 +1,27 @@
+{
+  "capturedUtc": "2026-10-03T04:31:43.8599657Z",
+  "cpu": {
+    "Name": "AMD Ryzen AI 9 HX 370 w/ Radeon 890M           ",
+    "NumberOfCores": 12,
+    "NumberOfLogicalProcessors": 24
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200",
+    "TotalVisibleMemorySize": 66184052,
+    "FreePhysicalMemory": 24722104
+  },
+  "runtime": "10.0.10",
+  "bdn": "0.15.8",
+  "affinityMask": 1,
+  "prewarmSeconds": 5,
+  "warmupCount": 15,
+  "iterationCount": 15,
+  "iterationTimeMs": 200,
+  "outlierMode": "DontRemove",
+  "order": "ABBA",
+  "baseline": "published 307e044",
+  "candidate": "307e044 plus candidate.patch",
+  "limitations": "Shared Windows workstation; no dedicated-host guarantee. Warm benchmarks only."
+}

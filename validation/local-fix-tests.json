@@ -1,0 +1,26 @@
+{
+  "name": "local-fix-tests",
+  "command": [
+    "C:\\Users\\nabej\\Documents\\Github\\ReDelta\\automation_workflow\\.work\\roslyn-85777\\.dotnet\\dotnet.exe",
+    "test",
+    "src/Compilers/CSharp/Test/Emit3/Microsoft.CodeAnalysis.CSharp.Emit3.UnitTests.csproj",
+    "-c",
+    "Release",
+    "-f",
+    "net10.0",
+    "--no-build",
+    "--no-restore",
+    "--filter",
+    "FullyQualifiedName~CollectionExpressionTests",
+    "--logger",
+    "trx;LogFileName=centralized-local-fix.trx"
+  ],
+  "cwd": "C:\\Users\\nabej\\Documents\\Github\\ReDelta\\automation_workflow\\.work\\roslyn-85777",
+  "startedAt": "2026-10-03T05:55:51.224702+00:00",
+  "timeoutSeconds": 3600,
+  "state": "passed",
+  "pid": 48344,
+  "exitCode": 0,
+  "seconds": 113.875,
+  "finishedAt": "2026-10-03T05:57:45.097869+00:00"
+}
